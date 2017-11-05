@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Organizadamente</title>
+	<link rel="stylesheet" href="estilo.css">
+	<link rel="shortcut icon" href="ilista-de-verificacao-caixa-marcada_318-62469.jpg">
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+<body>
+    <header id="topo-da-pagina">
+			<img src="relogio2.0.png" id="relogio">
+      <h1>ORGANIZADAMENTE</h1>
+      <h2>os unicornios reinam!</h2>
+      <nav>
+				<ul>
+					<li><a href="index.html">Inicial </a></li>
+          <li><a href="#pagina-02">Anotações</a></li>
+          <li><a href="#pagina-03">Game</a></li>
+					<li><a href="#pagina-04">Cronometro</a></li>
+        </ul>
+      </nav>
+    </header>
+	<div id="pagina-01" class="pagina">
+		<span class="icone-scroll">
+			<span class="scroll-next scroll"></span>
+		</span>
+		<h2>A importancia da organização</h2>
+		<p>	A falta de motivação e de produtividade são consequências da incapacidade
+			— ou percepção de inaptidão — de um indivíduo para se organizar e gerir o
+			próprio tempo com desenvoltura.
+			 Qualquer empreendimento, seja ele individual ou em equipe, só terá suas
+			 potencialidades plenamente exploradas e desenvolvidas caso os envolvidos
+			 saibam otimizar seu tempo e foco em prol dos objetivos estabelecidos.
+		</p>
+
+			<p>	Além disso, sem uma boa articulação em relação às tarefas cotidianas,
+				as pessoas tendem a desperdiçar seu tempo com atividades secundárias
+				que pouco — ou nada — agregam às suas metas de vida. Logo, frequentemente
+				 tornam-se estressadas, improdutivas e frustradas consigo mesmas e com
+				 o trabalho.
+			</p>
+
+			<p>	Para que qualquer propósito seja bem sucedido, é preciso um bom
+				planejamento estratégico, não é verdade? A lógica é exatamente a mesma
+				para indivíduos e times que buscam um melhor aproveitamento de tempo.
+				Portanto, a organização está estreitamente vinculada a planos de ação
+				 eficientes.</p>
+
+				<p>	As habilidades centrais de uma boa organização pessoal pressupõem
+				quatro eixos fundamentais. São eles: meta, prazo e estratégia.</p>
+
+				 <h3>Meta</h3>
+
+<p>	 O seu projeto deve ter uma meta bem estabelecida. Pode ser o aumento do
+	faturamento da empresa em 10%, a aprovação em um concurso ou vestibular,
+	conseguir uma promoção ou aumento, melhorar a percepção de marca, dentre
+	muitos outros. Não importa o seu intento, desde que ele esteja bem definido.</p>
+
+<h3>Prazo</h3>
+
+	<p>	Após a determinação da sua meta, você precisa estabelecer prazos.
+		Deadlines funcionam como mini metas — na medida em que as cumprimos,
+		nos sentimos mais motivados e satisfeitos. Elas são importantes porque
+		promovem a sensação de realização pessoal em prazos mais curtos — o que
+		acaba estimulando e combatendo o desânimo.</p>
+
+<h3>Estratégia</h3>
+
+<p>	Nessa etapa, você estabelecerá quais são as suas responsabilidades para
+determinadas parcelas de tempo. Exemplo de estratégia: durante as manhãs,
+concluir todos os relatórios e conteúdos que precisam ser entregues no dia,
+e as tardes serão reservadas para leituras, reuniões e análises de eficiência
+ do time.</p>
+
+<p>	Em nosso site você encontra apoio para se organizar melhor, temos cronometro para o desenvolvimento de técnicas como a do pomodoro,
+bloco de notas para que você organize suas metas e um joquinho, porque o cerebro precisa de periodos de distração para aumentar sua produtividade.</p>
+
+	</div>
+
+	<div id="pagina-02" class="pagina">
+		<span class="icone-scroll">
+			<span class="scroll-next scroll"></span>
+		</span>
+		<div class="bt">
+			<p>
+				faça aqui suas anotações!
+			</p>
+			<p>
+				<button id="gerarnota">gerar nota</button>
+			</p>
+
+
+		</div>
+
+	</div>
+
+	<div id="pagina-03" class="pagina">
+		<span class="icone-scroll">
+			<span class="scroll-next scroll"></span>
+		</span>
+		<p>Se você se dedica aos estudos em busca da aprovação em um concurso público, descansar pode aparecer como última
+necessidade na sua lista de prioridades</p> <p>não é mesmo? Afinal, estudar requer muitas horas de foco e concentração
+sobre os livros, editais, leis, questões e muito mais.</p>
+<p>Contudo, o descanso influencia significativamente no rendimento nos estudos.</p>
+<p>Não reservar um tempo especial para arejar a cabeça e se preparar para a próxima
+etapa pode repercutir negativamente nos seus resultados.</p>
+<p></p>
+<p><a id="game" href="file:///C:/Users/camila/Desktop/Trab/Game/index.html">Click aqui para jogar um GAME</a></p>
+<p id="study" ><img src="download.jpg"></p>
+	</div>
+
+
+	<div id="pagina-04" class="pagina">
+		<div id="contenedor">
+ 	 <div class="reloj" id="Horas">00</div>
+ 	 <div class="reloj" id="Minutos">:00</div>
+ 	 <div class="reloj" id="Segundos">:00</div>
+ 	 <div class="reloj" id="Centesimas">:00</div>
+ 	 <input type="button" class="boton" id="inicio" value="Start &#9658;" onclick="inicio();">
+ 	 <input type="button" class="boton" id="parar" value="Stop &#8718;" onclick="parar();" disabled>
+ 	 <input type="button" class="boton" id="continuar" value="Resume &#8634;" onclick="inicio();" disabled>
+ 	 <input type="button" class="boton" id="reinicio" value="Reset &#8635;" onclick="reinicio();" disabled>
+    </div>
+		<span class="icone-scroll">
+			<span class="scroll-top scroll"></span>
+			<span class="scroll-top scroll"></span>
+		</span>
+	</div>
+</body>
+<script src="JavaScript.js"></script>
+</html>

@@ -1,0 +1,219 @@
+		body {
+			margin: 0;
+			padding: 0;
+		}
+
+header {
+
+		  background: url("principal.jpg") no-repeat center center;
+		  -webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;
+			box-shadow: 2px 10px 10px rgba(0,0,0, .25);
+			padding-top: 1em;
+			text-align: center;
+
+}
+
+header ul {
+			padding-left: 0;
+			padding-top: 0.25em;
+			margin-bottom: 0;
+			background-color: white;
+}
+
+header li {
+			list-style: none;
+			display: inline-block;
+			font-family: "Special Elite", cursive;
+			border-bottom: 3px solid transparent;
+			margin: 0 1em;
+}
+
+#relogio{
+			height: 70px;
+			animation: rodaroda 0.1s linear infinite alternate;
+}
+@keyframes rodaroda {
+from {
+  transform:rotate(-5deg);
+}
+to {
+  transform:rotate(5deg);
+}
+}
+
+		h1 {
+			font-family: "Special Elite", cursive;
+			color: white;
+
+		}
+
+		h2 {
+			font-family: "Aldrich", sans-serif;
+			margin: 0 auto;
+			font-size: 20px;
+			text-align: center;
+			padding-top: 10px;
+			}
+
+		h1 + h2 {
+			font-size: 100%;
+			margin-top: 0.5em;
+			color: silver;
+		}
+
+		li a
+		{
+		 text-decoration:none;
+		 color: rgba(0, 204, 147, 0.9);
+		}
+		#pagina-01 {
+			background: url("minimal-design.jpg");
+			background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+		}
+		#pagina-02 {
+			background: url("fundo.png");
+			background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+			padding: 15px;
+		}
+		#pagina-03 {
+			background: url("wallhaven-28464.jpg");
+			background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+			color: white;
+			padding: 50px;
+
+		}
+		#pagina-04 {
+			background: url("clock.jpg");
+			background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+		}
+
+		.pagina {
+			position: relative;
+		}
+		.icone-scroll {
+			position: absolute;
+			bottom: 3em;
+			width: 50px;
+			height: 50px;
+			background-color: #1a1a1a;
+			border-radius: 50%;
+			left: 50%;
+			margin-left: -25px;
+			cursor: pointer;
+		}
+		.scroll {
+			width: 15px;
+			height: 15px;
+			border-right: 2px solid #fff;
+			border-bottom: 2px solid #fff;
+			display: inline-block;
+			position: relative;
+		}
+		.scroll-next {
+			transform: rotate(45deg);
+			margin: 14px 0 0 16.5px;
+		}
+		.scroll-top {
+			transform: rotate(225deg);
+			margin: 19px 0 0 17px;
+		}
+		.scroll-top + .scroll-top {
+			top: -15px;
+			margin-top: 0;
+		}
+
+	 #notas{
+		 border: 1px solid black;
+ 	   height: 15vh;
+ 	   width: 15vw;
+		 margin: 5px;
+		 background-color: rgba(255,255,255,0.7);
+		 font-size: 10px;
+		 color: black;
+		 font: bold 15px "Aldrich", sans-serif;
+	 }
+
+	 .bt p{
+		 text-align: center;
+		 font-family: "Special Elite", cursive;
+	 }
+
+   .bt button{
+		 padding: 10px;
+		 border-radius: 20px;
+	 }
+	 .bt{
+		 border: 2px dashed white;
+		 background-color: rgba(255,255,255,0.7);
+		 width: 30%;
+		 height: 25%;
+		 border-radius: 20px;
+		 font-size: 30px;
+		 margin: 0 auto;
+
+	 }
+
+	 p{
+		 text-align: center;
+		 font-family: "Special Elite", cursive;
+
+	 }
+	 h3{
+		 text-align: center;
+		 font-family: "Special Elite", cursive;
+		 margin: 0;
+	 }
+	 *{
+	 	margin: 0;
+	 	padding: 0;
+	 }
+	 #contenedor{
+	 	margin: 10px auto;
+	 	width: 540px;
+	 	height: 115px;
+	 }
+	 .reloj{
+	 	float: left;
+	 	font-size: 80px;
+	 	font-family: Courier,sans-serif;
+	 	color: #363431;
+	 }
+	 .boton{
+	 	outline: none;
+	 	border: 1px solid #363431;
+	 	color: white;
+	 	width: 128px;
+	 	height: 30px;
+	 	text-shadow: 0px -1px 1px black;
+	 	font-size: 20px;
+	 	border-radius: 5px;
+	 	font-family: Helvetica;
+	 	cursor: pointer;
+	 	background-image: linear-gradient(#3aad02,#2c6f05);
+	 }
+	 .boton:active{
+	 	background-image: linear-gradient(#2c6f05,#3aad02);
+	 }
+	 .boton:hover{
+	 	box-shadow: 0px 0px 14px #3aad02;
+	 }
+
+	 #game{
+		text-align: center;
+		background-color: #f7389b;
+	}
+
+	#study{
+		text-align: center;
+	}
